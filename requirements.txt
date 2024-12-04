@@ -1,5 +1,5 @@
 streamlit==1.26.0
-pillow==8.4.0 --prefer-binary
+pillow==8.4.0
 pandas
 openpyxl
 matplotlib
