@@ -289,7 +289,7 @@ else:
     st.sidebar.title(f"Bem-vindo, {st.session_state['usuario_logado']}")
     if st.sidebar.button("Sair"):
         del st.session_state['usuario_logado']
-        st.experimental_rerun()
+        st.rerun()
     
     # Adicionar "Gerenciar Usuários" apenas para o admin
     opcoes_paginas = ["Página Inicial", "Editar Registro", "Visualizações", "Sobre"]
