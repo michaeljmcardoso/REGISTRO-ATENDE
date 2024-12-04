@@ -5,7 +5,7 @@ import hashlib
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-# Função para hash de senha
+# Função para hash de senha 
 def hash_senha(senha):
     return hashlib.sha256(senha.encode()).hexdigest()
 
