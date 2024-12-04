@@ -1,6 +1,7 @@
 streamlit==1.26.0
-pillow
+pillow==8.4.0
 pandas
 openpyxl
 matplotlib
 build
+pip==24.3.1
