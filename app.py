@@ -85,7 +85,7 @@ def tela_login():
         if verificar_credenciais(usuario, senha):
             st.session_state['usuario_logado'] = usuario
             st.success(f"Bem-vindo, {usuario}!")
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("Credenciais inválidas.")
 
