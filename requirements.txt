@@ -1,5 +1,6 @@
 streamlit==1.26.0
+pillow==9.5.0 --prefer-binary
 pandas
 openpyxl
 matplotlib
-pillow==9.5.0 --prefer-binary
+build
